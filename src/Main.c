@@ -2,8 +2,15 @@
  * Main.c
  *
  *  Created on: Nov 9, 2018
- *      Author: e.guardado.figarola
- */
+ *  Alumnos:
+ *  RUTH ABIGAIL ESPINOZA
+	ALEXIS ALONSO RIVERA GARCIA
+	EDUARDO HERON GUARDADO FIGAROLA
+	ALBERTO EMILIANO OLIVA MUÑIZ
+	CESAR GARCIA MARTINEZ
+	JONATHAN DEL ANGEL GONZALEZ
+
+	*/
 
 #include <stdio.h>
 int n;
@@ -14,6 +21,7 @@ main(){
 	scanf("%d", & n);
 	int vector[n];
 	int j = 3;
+
 	for(int i=1;i<=n;i++){
 
 		vector[i]=j;
